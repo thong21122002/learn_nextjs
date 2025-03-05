@@ -1,0 +1,17 @@
+.red {
+    color: red;
+    border: 1px red;
+}
+
+.green {
+    color: green;
+    border: 1px green;
+}
+
+.footerStyle {
+    background-color: '#5D4037';
+    color: '#fff';
+    text-align: 'center';
+    padding: '1rem';
+    border-Top: '1px solid #4E342E';
+}

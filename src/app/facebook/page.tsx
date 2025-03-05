@@ -1,5 +1,5 @@
 'use client'
-import Link from 'next/link'
+import Button from 'react-bootstrap/Button';
 import { useRouter } from 'next/navigation'
 
 const Facebook = () => {
@@ -10,6 +10,7 @@ const Facebook = () => {
     return (
         <div>
             facebook
+            <Button variant='success'>Tôi tên là Thông</Button>
             <button onClick={() => { handle() }}>
                 back home
             </button>
